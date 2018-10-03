@@ -1,3 +1,8 @@
+
+// custom
+// increase enemies by score
+let score = 0;
+
 // Enemies our player must avoid
 let Enemy = function (xCoordinate, yCoordinate, speed) {
     // Variables applied to each of our instances go here,
@@ -126,10 +131,6 @@ document.addEventListener('keyup', function (e) {
 
     player.handleInput(allowedKeys[e.keyCode]);
 });
-
-// custom
-// increase enemies by score
-let score = 0;
 
 /*
  * resets the game in case of collision
