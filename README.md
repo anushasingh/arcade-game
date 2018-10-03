@@ -4,6 +4,9 @@ This is an implementation of Frogger game where user has to go through a lane av
 They score a point once they cross the lane without getting hit.
 With increasing score, the number of beetles increases.
 
+#### How to run
+- Clone the repository.
+- Open index.html in any browser.
 
 #### Basic Functionality
 
